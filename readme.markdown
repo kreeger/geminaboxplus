@@ -33,3 +33,7 @@ script
   exec su -c "cd $BASEDIR && QUEUE=reindex PIDFILE=$PIDFILE bundle exec rake resque:work >> $LOGFILE 2>&1" $WEBUSER
 end script
 ```
+
+## Original repository
+
+Check out [sam's original repository](https://github.com/sam/geminaboxplus) for GeminaboxPlus for a version that uses `redis-directory` for Redis configuration.
