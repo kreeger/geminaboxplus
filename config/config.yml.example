@@ -1,0 +1,5 @@
+redis:
+  server: redis://127.0.0.1:6379
+  namespace: resque:gems
+gems:
+  data_directory: /var/www/gems/data

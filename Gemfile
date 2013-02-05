@@ -1,6 +1,5 @@
 source :gemcutter
 
 gem "rake"
-gem "geminabox"
+gem "geminabox", '0.10.1'
 gem "resque"
-gem "redis_directory", :git => "git://github.com/wiecklabs/redis_directory.git"
