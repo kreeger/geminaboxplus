@@ -1,6 +1,6 @@
 # GeminaboxPlus
 
-GeminaboxPlus is a ready-to-go application for Geminabox (https://github.com/cwninja/geminabox) installs.
+GeminaboxPlus is a ready-to-go application for Geminabox (https://github.com/cwninja/geminabox) with background reindexing.
 
 ## Why?
 
