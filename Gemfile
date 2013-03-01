@@ -1,5 +1,5 @@
-source :gemcutter
+source 'https://rubygems.org'
 
 gem "rake"
-gem "geminabox", '0.10.1'
+gem "geminabox", git: 'git://github.com/cwninja/geminabox.git', ref: 'f8860f55'
 gem "resque"
