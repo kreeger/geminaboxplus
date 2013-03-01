@@ -5,7 +5,7 @@ class Reindexer
     Gem.post_reset { Gem::Specification.all = nil }
 
     indexer = Gem::Indexer.new(data)
-    dependency_cache = Geminabox::DiskCache.new(File.join(settings.data, "_cache"))
+    dependency_cache = Geminabox::DiskCache.new(File.join(data, "_cache"))
 
     if force_rebuild
       indexer.generate_index
